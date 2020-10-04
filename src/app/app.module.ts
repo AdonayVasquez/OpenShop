@@ -7,12 +7,15 @@ import { InicioComponent } from './pages/inicio/inicio.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
     InicioComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+
   ],
   imports: [
     BrowserModule,

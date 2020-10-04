@@ -1,0 +1,75 @@
+nav {
+  /*  primer azul: #0099ff;
+      azul dark:  #00bcd4;
+      azul light: #b2ebf2;
+      anaranjado dark: #dd2c00;
+      anaranjado light: #ff5722;
+  */
+  background-color: #00bcd4;
+}
+
+#nav-icon {
+  margin-left: 5vw;
+  height: 100px;
+}
+
+#navbarSupportedContent {
+  margin-top: 10px;
+  border-bottom: 0px;
+}
+
+.nav-elements {
+  /* background-color: yellowgreen; */
+  margin: auto;
+}
+
+.nav-elements a{
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  margin-left: 30px;
+  transition: 0.5s;
+  /* background-color: yellow; */
+}
+
+.nav-elements a:hover {
+  color: #ff5722;
+  transition: 0.5s;
+}
+
+.nav-auth a {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.nav-auth #nav-login a:hover {
+  color: #ff5722;
+  transition: 0.5s;
+}
+
+.nav-auth #nav-register a {
+  /* background-color: blue; */
+/*   margin-left:0px ;
+  padding-left: 0px; */
+  background-color: #ff5722;
+  border-radius: 25px;
+  transition: 0.5s;
+}
+
+.nav-auth #nav-register a:hover {
+  background-color: #00bcd4;
+  color: #ff5722;
+  transition: 0.5s;
+}
+
+
+@media (max-width: 575.98px) {
+  #nav-icon {
+    margin-left: 5vw;
+    height: 50px;
+  }
+}
