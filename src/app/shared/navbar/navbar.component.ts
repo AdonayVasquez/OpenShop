@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Inject } from '@angular/core';
+import { DOCUMENT } from '@angular/common';
+import { PageScrollService } from 'ngx-page-scroll-core';
 
 @Component({
   selector: 'app-navbar',
@@ -7,14 +10,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
+  constructor(private pageScrollService: PageScrollService, @Inject(DOCUMENT) private document: any) { }
 
   ngOnInit(): void {
+   /*  this.pageScrollService.scroll({
+      document: this.document,
+      scrollTarget: '.theEnd',
+    }); */
   }
 
- /*  scrollToElement($element): void {
-    console.log($element);
-    $element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
-  } */
 
 }
