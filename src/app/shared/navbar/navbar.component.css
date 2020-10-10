@@ -4,6 +4,7 @@ nav {
       azul light: #b2ebf2;
       anaranjado dark: #dd2c00;
       anaranjado light: #ff5722;
+      anaranjado light true:#ff8522;
   */
   background-color: #00bcd4;
 }
@@ -55,7 +56,7 @@ nav {
   /* background-color: blue; */
 /*   margin-left:0px ;
   padding-left: 0px; */
-  background-color: #ff5722;
+  background-color: #ff8522;
   border-radius: 25px;
   transition: 0.5s;
 }
