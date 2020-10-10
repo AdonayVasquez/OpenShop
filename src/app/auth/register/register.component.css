@@ -1,0 +1,31 @@
+.div-register {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#label-register {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  display: block;
+}
+
+#div-usuario {
+  text-align:right ;
+  padding-top: 10px;
+}
+#div-empresa{
+  padding-top: 10px;
+}
+
+#div-usuario label{
+  padding-left: 5px;
+}
+#div-empresa label{
+  padding-left: 5px;
+}
+
+form button {
+  margin-left: 40%;
+}
+

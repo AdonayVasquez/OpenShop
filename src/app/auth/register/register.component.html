@@ -1,0 +1,54 @@
+<app-navbar></app-navbar>
+
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-5 col-5" >
+      <div class="div-register">
+        <label id="label-register">Registro</label>
+        <form>
+          <!-- <label id="tipo-cuenta" for="">Tipo de cuenta</label> -->
+          <div class="row">
+            <div class="col">
+              <div id="div-usuario">
+                <input type="radio" name="tipoCuenta" value="usuario" aria-label="Opcion para cuenta cliente">
+                <label for="">Cuenta de Usuario</label>
+              </div>
+            </div>
+            <div class="col">
+              <div id="div-empresa">
+                <input type="radio" name="tipoCuenta" value="empresa" aria-label="Opcion para cuenta empresa">
+                <label for="">Cuenta de Empresa</label>
+             </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>Nombre completo</label>
+            <input type="text" class="form-control" id="nombre" aria-describedby="nameHelp" placeholder="Ingrese su nombre">
+          </div>
+          <div class="form-group">
+            <label>Correo electrónico</label>
+            <input type="email" class="form-control" id="correo" aria-describedby="emailHelp" placeholder="Ingrese su correo electrónico">
+
+          </div>
+          <div class="form-group">
+            <label>Contraseña</label>
+            <input type="password" class="form-control" id="contrasenia1" placeholder="Ingrese su contraseña">
+          </div>
+          <div class="form-group">
+            <label>Confirme su contraseña</label>
+            <input type="password" class="form-control" id="contrasenia2" placeholder="Confirme su contraseña">
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Acepta nuestras politicas</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Aceptar</button>
+        </form>
+
+      </div>
+
+    </div>
+
+  </div>
+</div>

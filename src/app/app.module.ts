@@ -12,6 +12,8 @@ import { AppComponent } from './app.component';
 import { InicioComponent } from './pages/inicio/inicio.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { RegisterComponent } from './auth/register/register.component';
+import { LoginComponent } from './auth/login/login.component';
 
 
 
@@ -23,6 +25,8 @@ import { FooterComponent } from './shared/footer/footer.component';
     InicioComponent,
     NavbarComponent,
     FooterComponent,
+    RegisterComponent,
+    LoginComponent,
 
   ],
   imports: [
