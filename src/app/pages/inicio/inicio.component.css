@@ -1,4 +1,4 @@
-.row {
+#div-inicio {
   height: 320px;
   width: 99.4vw;
   position: relative;
@@ -50,9 +50,72 @@
   border-top: 0px;
 }
 
+.div-secciones {
+  font-family: 'Quicksand', sans-serif;
+  height: 100vh;
+  /* background-color: rgb(220, 232, 255); */
+}
+
+.label-servicios {
+  text-align: center;
+  display: block;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.div-servicios {
+  /* margin-top: 20px; */
+  text-align: center;
+}
+
+.div-servicios img {
+  display: block;
+  margin: auto;
+  height: 120px;
+}
+
+.div-servicios label {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.t-center {
+  display: block;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.div-servicios p {
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 18px;
+}
+
+#planes {
+  height: 320px;
+  width: 99.4vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.blue{
+  background-color: #00bcd4;
+}
+
+.lista {
+  display: block;
+  padding-left: 50%;
+ /*  background-color: darkgray; */
+  font-size: 20px;
+}
 
 @media (max-width: 575.98px) {
-  .row {
+  #div-inicio {
     height: 400px;
 
     width: 100vw;

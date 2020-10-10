@@ -14,7 +14,8 @@
         <a class="nav-link" routerLinkActive="active" routerLink="/inicio" >Inicio <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLink="/servicios" >Servicios</a>
+        <!-- <a class="nav-link" pageScroll href="#servicios" >Servicios</a> -->
+        <a [routerLink]="['./']" fragment="servicios">servicios</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Precios</a>
