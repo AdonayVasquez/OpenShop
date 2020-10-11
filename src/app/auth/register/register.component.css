@@ -1,6 +1,9 @@
 .div-register {
   margin-top: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  font-weight: 700;
 }
 
 #label-register {
@@ -25,7 +28,30 @@
   padding-left: 5px;
 }
 
+.col-md-5 {
+  margin-top: 2%;
+  margin-bottom: 30px;
+  /* background: linear-gradient(to left top,#b2ebf2, #00bcd4); */
+  background: linear-gradient(to right bottom, #ff8522, #00bcd4);
+  border-radius: 30px;
+
+}
+
 form button {
-  margin-left: 40%;
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  background-color: #ff8522;
+  border-radius: 25px;
+  transition: 0.5s;
+  border: 0;
+  font-weight: 700;
+  width: 35%;
+}
+form button:hover {
+  color:#dd2c00;
+  transition: 0.5s;
 }
 

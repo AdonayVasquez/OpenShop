@@ -7,6 +7,7 @@ nav {
       anaranjado light true:#ff8522;
   */
   background-color: #00bcd4;
+  font-family: 'Quicksand', sans-serif;
 }
 
 #nav-icon {
@@ -35,7 +36,7 @@ nav {
 }
 
 .nav-elements a:hover {
-  color: #ff5722;
+  color: #dd2c00;
   transition: 0.5s;
 }
 
@@ -62,8 +63,8 @@ nav {
 }
 
 .nav-auth #nav-register a:hover {
-  background-color: #00bcd4;
-  color: #ff5722;
+  /* background-color: #00bcd4; */
+  color: #dd2c00;
   transition: 0.5s;
 }
 
