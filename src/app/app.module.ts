@@ -14,6 +14,9 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { RegisterComponent } from './auth/register/register.component';
 import { LoginComponent } from './auth/login/login.component';
+import { AdminSidebarComponent } from './shared/admin-sidebar/admin-sidebar.component';
+import { AdminHeaderComponent } from './shared/admin-header/admin-header.component';
+import { AdminComponent } from './pages/admin/admin.component';
 
 
 
@@ -27,6 +30,9 @@ import { LoginComponent } from './auth/login/login.component';
     FooterComponent,
     RegisterComponent,
     LoginComponent,
+    AdminSidebarComponent,
+    AdminHeaderComponent,
+    AdminComponent,
 
   ],
   imports: [
