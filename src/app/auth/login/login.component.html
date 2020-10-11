@@ -1,10 +1,27 @@
 <app-navbar></app-navbar>
 
 <div class="container">
-  <div class="row">
-    <div class="col-md-8 col-8" >
+  <div class="row justify-content-center">
+    <div class="col-md-5 col-5" >
 
-      aqui va el formulario
+      <div class="div-login">
+        <label id="label-login">Login</label>
+        <form>
+          <div class="form-group">
+            <label>Correo electrónico</label>
+            <input type="email" class="form-control" id="correo" aria-describedby="emailHelp" placeholder="Ingrese su correo electrónico">
+
+          </div>
+          <div class="form-group">
+            <label>Contraseña</label>
+            <input type="password" class="form-control" id="contrasenia1" placeholder="Ingrese su contraseña">
+          </div>
+
+          <button type="submit" class="btn btn-primary">Ingresar</button>
+        </form>
+
+      </div>
+
     </div>
 
   </div>

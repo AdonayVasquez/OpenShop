@@ -1,0 +1,15 @@
+.div-login {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#label-login {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  display: block;
+}
+
+form button {
+  margin-left: 40%;
+}
