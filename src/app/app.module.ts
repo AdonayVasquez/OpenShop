@@ -5,6 +5,7 @@ import { NgModule } from '@angular/core';
 import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
 import { NgxPageScrollModule } from 'ngx-page-scroll';
 
+import { AdminModule } from './pages/admin/admin.module';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
@@ -17,6 +18,7 @@ import { LoginComponent } from './auth/login/login.component';
 import { AdminSidebarComponent } from './shared/admin-sidebar/admin-sidebar.component';
 import { AdminHeaderComponent } from './shared/admin-header/admin-header.component';
 import { AdminComponent } from './pages/admin/admin.component';
+
 
 
 
@@ -39,7 +41,8 @@ import { AdminComponent } from './pages/admin/admin.component';
     BrowserModule,
     AppRoutingModule,
     NgxPageScrollCoreModule,
-    NgxPageScrollModule
+    NgxPageScrollModule,
+    AdminModule
   ],
   providers: [],
   bootstrap: [AppComponent]

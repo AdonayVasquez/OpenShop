@@ -11,7 +11,7 @@ const routes: Routes = [
   { path: 'inicio', component:InicioComponent },
   { path: 'register', component:RegisterComponent },
   { path: 'login', component:LoginComponent },
-  { path: 'admin', component:AdminComponent },
+  /* { path: 'admin', component:AdminComponent }, */
   { path: '', redirectTo: '/inicio', pathMatch: 'full' },
 ];
 

@@ -1,0 +1,17 @@
+#label-plan {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.btn-plan-aceptar {
+  color: white;
+  background-color: #ff8522;
+  display: block;
+  margin: auto;
+}
+
+.btn-plan-aceptar:hover {
+  background-color: #00bcd4;
+}

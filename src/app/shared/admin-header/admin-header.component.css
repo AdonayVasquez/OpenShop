@@ -253,3 +253,8 @@ a.article:hover {
         display: none;
     }
 }
+
+#sidebarCollapse{
+  background-color: #ff8522;
+  color: white;
+}
