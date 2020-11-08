@@ -1,0 +1,29 @@
+#label-tema {
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.ace-editor {
+  min-height: 150px;
+  overflow: auto;
+  margin-bottom: 10px;
+}
+
+.btn-tema-aceptar {
+  color: white;
+  background-color: #ff8522;
+  display: block;
+  margin: auto;
+}
+
+.btn-tema-aceptar:hover {
+  background-color: #00bcd4;
+}
+
+.label-editor {
+  display: block;
+  font-weight: 700;
+  text-align: center;
+}
