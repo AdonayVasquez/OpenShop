@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { EmpresasComponent } from './empresas/empresas.component';
 import { HomeComponent } from './home/home.component';
 import { PlanNuevoComponent } from './plan-agregar/plan-agregar.component';
+import { PlanGestionComponent } from './plan-gestion/plan-gestion.component';
 import { TemaAgregarComponent } from './tema-agregar/tema-agregar.component';
 
 
@@ -11,6 +12,7 @@ const childAdminRoutes: Routes = [
   { path: 'empresas', component: EmpresasComponent},
   { path: 'nuevo-plan', component: PlanNuevoComponent},
   { path: 'tema-agregar', component: TemaAgregarComponent},
+  { path: 'gestion-plan', component: PlanGestionComponent}
 ];
 
 /* @NgModule({

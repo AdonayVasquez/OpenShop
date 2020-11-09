@@ -1,0 +1,35 @@
+<div class="container">
+  <label id="label-titulo" for="">Gestion de planes</label>
+
+  <div class="row justify-content-center" >
+    <div class="col-8 col-md-8">
+      <form action="">
+        <ng-container *ngFor="let plan of planes">
+          <label id="label-plan" for="">Plan {{plan.plan}}</label>
+          <div class="form-group dos-columnas" >
+            <label >Cantidad de Temas</label>
+            <input class="form-control" value="{{plan.cantidad_temas}}" type="number" placeholder="Ingrese la nueva cantidad">
+          </div>
+          <div class="form-group dos-columnas" >
+            <label >Cantidad de Paginas</label>
+            <input class="form-control" value="{{plan.cantidad_paginas}}" type="number" placeholder="Ingrese la nueva cantidad">
+          </div>
+          <div class="form-group dos-columnas" >
+            <label >Cantidad de Cuentas</label>
+            <input class="form-control" value="{{plan.cantidad_cuentas}}" type="number" placeholder="Ingrese la nueva cantidad">
+          </div>
+          <div class="form-group dos-columnas" >
+            <label >Plantillas para elegir</label>
+            <input class="form-control" value="{{plan.capacidad_almacenamiento}}" type="number" placeholder="Ingrese la nueva cantidad">
+          </div>
+          <hr>
+        </ng-container>
+
+        <button type="submit" class="btn btn-plan-actualizar">Actualizar</button>
+      </form>
+    </div>
+
+  </div>
+
+
+</div>

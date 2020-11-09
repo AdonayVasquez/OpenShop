@@ -6,12 +6,23 @@ import { HomeComponent } from './home/home.component';
 import { PlanNuevoComponent } from './plan-agregar/plan-agregar.component';
 import { TemaAgregarComponent } from './tema-agregar/tema-agregar.component';
 import { AceEditorModule } from 'ng2-ace-editor';
+import { PlanGestionComponent } from './plan-gestion/plan-gestion.component';
 
 
 
 @NgModule({
-  declarations: [EmpresasComponent, HomeComponent, PlanNuevoComponent, TemaAgregarComponent],
-  exports: [EmpresasComponent, HomeComponent, PlanNuevoComponent],
+  declarations: [
+    EmpresasComponent,
+    HomeComponent,
+    PlanNuevoComponent,
+    TemaAgregarComponent,
+    PlanGestionComponent
+  ],
+  exports: [
+    EmpresasComponent,
+    HomeComponent,
+    PlanNuevoComponent
+  ],
   imports: [
     CommonModule,
     AdminRoutingModule,

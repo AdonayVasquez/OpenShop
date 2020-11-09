@@ -1,0 +1,31 @@
+#label-titulo {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+#label-plan {
+  font-weight: 700;
+}
+
+.dos-columnas {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dos-columnas label {
+  width: 50%;
+}
+
+.btn-plan-actualizar {
+  color: white;
+  background-color: #ff8522;
+  display: block;
+  margin: auto;
+}
+
+.btn-plan-actualizar:hover {
+  background-color: #00bcd4;
+}
