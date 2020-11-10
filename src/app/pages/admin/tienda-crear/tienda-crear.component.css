@@ -1,0 +1,21 @@
+.ace-editor {
+  min-height: 150px;
+  overflow: auto;
+  margin-bottom: 10px;
+}
+
+.btn-crear {
+  color: white;
+  background-color: #ff8522;
+  display: block;
+  margin: auto;
+}
+
+.btn-crear:hover {
+  background-color: #00bcd4;
+}
+
+.alinear-vertical {
+  margin-top: 35px;
+  margin-bottom: 50px;
+}

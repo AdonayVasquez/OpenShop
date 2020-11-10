@@ -5,6 +5,7 @@ import { HomeComponent } from './home/home.component';
 import { PlanNuevoComponent } from './plan-agregar/plan-agregar.component';
 import { PlanGestionComponent } from './plan-gestion/plan-gestion.component';
 import { TemaAgregarComponent } from './tema-agregar/tema-agregar.component';
+import { TiendaCrearComponent } from './tienda-crear/tienda-crear.component';
 
 
 const childAdminRoutes: Routes = [
@@ -12,7 +13,8 @@ const childAdminRoutes: Routes = [
   { path: 'empresas', component: EmpresasComponent},
   { path: 'nuevo-plan', component: PlanNuevoComponent},
   { path: 'tema-agregar', component: TemaAgregarComponent},
-  { path: 'gestion-plan', component: PlanGestionComponent}
+  { path: 'gestion-plan', component: PlanGestionComponent},
+  { path: 'crear-tienda', component: TiendaCrearComponent},
 ];
 
 /* @NgModule({

@@ -7,6 +7,7 @@ import { PlanNuevoComponent } from './plan-agregar/plan-agregar.component';
 import { TemaAgregarComponent } from './tema-agregar/tema-agregar.component';
 import { AceEditorModule } from 'ng2-ace-editor';
 import { PlanGestionComponent } from './plan-gestion/plan-gestion.component';
+import { TiendaCrearComponent } from './tienda-crear/tienda-crear.component';
 
 
 
@@ -16,7 +17,8 @@ import { PlanGestionComponent } from './plan-gestion/plan-gestion.component';
     HomeComponent,
     PlanNuevoComponent,
     TemaAgregarComponent,
-    PlanGestionComponent
+    PlanGestionComponent,
+    TiendaCrearComponent
   ],
   exports: [
     EmpresasComponent,
