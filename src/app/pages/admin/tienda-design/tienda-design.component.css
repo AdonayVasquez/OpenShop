@@ -1,0 +1,23 @@
+.btn {
+  color: white;
+  background-color: #ff8522;
+  display: block;
+  margin: auto;
+}
+.btn-generico{
+  width: 40%;
+}
+
+.btn:hover {
+  background-color: #00bcd4;
+}
+
+#label-titulo {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.alinear-vertical {
+  margin-top: 35px;
+  margin-bottom: 45px;
+}

@@ -6,6 +6,7 @@ import { PlanNuevoComponent } from './plan-agregar/plan-agregar.component';
 import { PlanGestionComponent } from './plan-gestion/plan-gestion.component';
 import { TemaAgregarComponent } from './tema-agregar/tema-agregar.component';
 import { TiendaCrearComponent } from './tienda-crear/tienda-crear.component';
+import { TiendaDesignComponent } from './tienda-design/tienda-design.component';
 
 
 const childAdminRoutes: Routes = [
@@ -15,6 +16,7 @@ const childAdminRoutes: Routes = [
   { path: 'tema-agregar', component: TemaAgregarComponent},
   { path: 'gestion-plan', component: PlanGestionComponent},
   { path: 'crear-tienda', component: TiendaCrearComponent},
+  { path: 'design-tienda', component: TiendaDesignComponent},
 ];
 
 /* @NgModule({
