@@ -18,6 +18,7 @@ import { LoginComponent } from './auth/login/login.component';
 import { AdminSidebarComponent } from './shared/admin-sidebar/admin-sidebar.component';
 import { AdminHeaderComponent } from './shared/admin-header/admin-header.component';
 import { AdminComponent } from './pages/admin/admin.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 
@@ -42,7 +43,8 @@ import { AdminComponent } from './pages/admin/admin.component';
     AppRoutingModule,
     NgxPageScrollCoreModule,
     NgxPageScrollModule,
-    AdminModule
+    AdminModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

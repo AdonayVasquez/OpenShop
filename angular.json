@@ -27,6 +27,7 @@
               { "glob": "worker-json.js", "input": "./node_modules/ace-builds/src-min/", "output": "/" }
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": [

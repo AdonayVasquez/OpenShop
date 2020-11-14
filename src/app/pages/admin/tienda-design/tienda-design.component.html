@@ -1,5 +1,5 @@
  <!-- Codigo del componente Ecommerce agregar -->
- <div class="justify-content-center">
+<div class="justify-content-center">
   <div>
     <label id="label-titulo" for="">Diseñar Ecommerce</label>
     <div class="row">
@@ -26,12 +26,28 @@
          <button class="btn btn-generico">Mostrar Shortcuts</button>
         </div>
         <div class="form-group alinear-vertical">
-          <button class="btn btn-generico">Nuevo bloque</button>
+          <!-- <button class="btn btn-generico">Nuevo bloque</button> -->
+          <button type="button" class="btn btn-generico" (click)="openLG(contenido)">Nuevo bloque</button>
          </div>
       </div>
     </div>
 
     <button type="submit" class="btn btn-crear">Aceptar</button>
+
+    <ng-template #contenido let-modal>
+      <div class="modal-header">
+        <h4 class="modal-title">Titulo del Modal</h4>
+        <button class="close" aria-label="close" type="button" (click)="modal.dismiss()">
+          <span>&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Este es el contenido de este modal
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" (click)="modal.close()">Ok!</button>
+      </div>
+    </ng-template>
 
   </div>
 </div>

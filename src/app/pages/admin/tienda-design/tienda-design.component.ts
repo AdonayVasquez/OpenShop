@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-tienda-design',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TiendaDesignComponent implements OnInit {
 
-  constructor() { }
+  constructor(private modal:NgbModal) { }
 
   ngOnInit(): void {
   }
 
+  openLG(contenido) {
+    this.modal.open(contenido, {size: 'lg'});
+  }
 }
