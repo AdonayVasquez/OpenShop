@@ -32,6 +32,13 @@
       </div>
     </div>
 
+    <h3 >probando </h3>
+    <div class="row">
+      <div *ngIf="bloques[0]" class="col-{{bloques[0].mobile}} col-lg-{{bloques[0].desktop}}" style="background-color: orange;">columna 1</div>
+      <div *ngIf="bloques[1]" class="col-{{bloques[1].mobile}} col-lg-{{bloques[1].desktop}}" style="background-color: palegoldenrod;">columna 2</div>
+      <div *ngIf="bloques[2]" class="col-{{bloques[2].mobile}} col-lg-{{bloques[2].desktop}}" style="background-color: rgb(188, 253, 255);">columna 2</div>
+    </div>
+
     <button type="submit" class="btn btn-crear">Aceptar</button>
 
     <ng-template #contenido let-modal>
@@ -42,10 +49,22 @@
         </button>
       </div>
       <div class="modal-body">
-        Este es el contenido de este modal
+        <div class="form-group">
+          <label> POSICION</label>
+          <input class="form-control" [(ngModel)]="bloque.posicion" type="text" placeholder="Ingrese la posicion">
+        </div>
+        <div class="form-group">
+          <label>No. Columnas Desktop</label>
+          <input class="form-control" [(ngModel)]="bloque.colDesktop" type="text" placeholder="Columnas en tamaño escritorio">
+        </div>
+        <div class="form-group">
+          <label>No. Columnas Mobile</label>
+          <input class="form-control" [(ngModel)]="bloque.colMobile" type="text" placeholder="Columnas en tamaño mobile">
+        </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-success" (click)="modal.close()">Ok!</button>
+        <!-- <button type="button" class="btn btn-success" (click)="modal.close()">Ok!</button> -->
+        <button type="button" class="btn btn-success" (click)="guardarBloque()">Ok!</button>
       </div>
     </ng-template>
 

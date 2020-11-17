@@ -14,7 +14,7 @@ export class TiendaBloqueAgregarComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  openXL(contenido) {
+  openLG(contenido) {
     this.modal.open(contenido, {size: 'lg'});
   }
 
